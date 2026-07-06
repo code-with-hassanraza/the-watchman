@@ -1,0 +1,47 @@
+{
+  "version": "0",
+  "id": "test-event-12345",
+  "source": "aws.guardduty",
+  "account": "YOUR_ACCOUNT_ID",
+  "region": "us-east-1",
+  "detail-type": "GuardDuty Finding",
+  "detail": {
+    "schemaVersion": "2.0",
+    "accountId": "YOUR_ACCOUNT_ID",
+    "region": "us-east-1",
+    "type": "UnauthorizedAccess:EC2/SSHBruteForce",
+    "severity": 8.0,
+    "title": "SSH brute force attack against your EC2 instance",
+    "description": "Test event for Watchman Lambda validation",
+    "resource": {
+      "resourceType": "Instance",
+      "instanceDetails": {
+        "instanceId": "YOUR_INSTANCE_ID",
+        "instanceType": "t3.micro",
+        "networkInterfaces": [
+          {
+            "vpcId": "YOUR_VPC_ID",
+            "publicIp": "1.2.3.4"
+          }
+        ]
+      }
+    },
+    "service": {
+      "action": {
+        "actionType": "NETWORK_CONNECTION",
+        "networkConnectionAction": {
+          "remoteIpDetails": {
+            "ipAddressV4": "23.20.0.1", 
+            "country": {
+              "countryName": "United States"
+            }
+          },
+          "remotePortDetails": {
+            "port": 22
+          },
+          "connectionDirection": "INBOUND"
+        }
+      }
+    }
+  }
+}
