@@ -176,14 +176,14 @@ Expected result:
 
 | What | Screenshot |
 |------|-----------|
-| GuardDuty enabled | ![GuardDuty](screenshots/01-guardduty-enabled.png) |
-| Security Hub dashboard | ![Security Hub](screenshots/02-security-hub-dashboard.png) |
-| Secrets Manager secret | ![Secrets](screenshots/03-secrets-manager-secret.png) |
-| IAM role and policies | ![IAM](screenshots/04-iam-role-permissions.png) |
-| Lambda function code | ![Lambda](screenshots/05-lambda-function-code.png) |
-| EventBridge rule | ![EventBridge](screenshots/06-eventbridge-rule.png) |
-| EC2 isolated | ![Isolated](screenshots/07-ec2-isolated.png) |
-| Slack alert received | ![Slack](screenshots/08-slack-alert.png) |
+| GuardDuty enabled | ![GuardDuty](screenshots/01-GuardDuty-Enabled.png) |
+| Security Hub dashboard | ![Security Hub](screenshots/02-Security-Hub-Dashboard.png) |
+| Secrets Manager secret | ![Secrets](screenshots/03-Secrets-Manager-Secret.png) |
+| IAM role and policies | ![IAM](screenshots/04-IAM-Role-Permissions.png) |
+| Lambda function code | ![Lambda](screenshots/05-Lambda-Function-Code.png) |
+| EventBridge rule | ![EventBridge](screenshots/06-EventBridge-Rule.png) |
+| EC2 isolated | ![Isolated](screenshots/07-EC2-Isolated.png) |
+| Slack alert received | ![Slack](screenshots/08-Slack-Alert.png) |
 
 ---
 
