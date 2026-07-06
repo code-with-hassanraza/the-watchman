@@ -69,21 +69,21 @@ Termination destroys forensic evidence. Isolation preserves the instance exactly
 ```
 the-watchman/
 ├── lambda/
-│   └── lambda_function.py      # Lambda handler
+│   └── lambda_function.py      # Lambda Handler
 ├── policies/
-│   ├── trust-policy.json       # IAM trust policy
-│   └── permission-policy.json  # IAM permission policy
+│   ├── trust-policy.json       # IAM Trust Policy
+│   └── permission-policy.json  # IAM Permission Policy
 ├── tests/
-│   └── test-event.json         # Sample GuardDuty finding
-├── screenshots/
-│   ├── 01-guardduty-enabled.png
-│   ├── 02-security-hub-dashboard.png
-│   ├── 03-secrets-manager-secret.png
-│   ├── 04-iam-role-permissions.png
-│   ├── 05-lambda-function-code.png
-│   ├── 06-eventbridge-rule.png
-│   ├── 07-ec2-isolated.png
-│   └── 08-slack-alert.png
+│   └── test-event.json         # Sample GuardDuty Finding
+├── screenshots/                # Deployment Evidence
+│   ├── 01-GuardDuty-Enabled.png
+│   ├── 02-Security-Hub-Dashboard.png
+│   ├── 03-Secrets-Manager-Secret.png
+│   ├── 04-IAM-Role-Permissions.png
+│   ├── 05-Lambda-Function-Code.png
+│   ├── 06-EventBridge-Rule.png
+│   ├── 07-EC2-Isolated.png
+│   └── 08-Slack-Alert.png
 └── README.md
 ```
 
