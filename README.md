@@ -1,7 +1,8 @@
 # 🛡️ The Watchman
 ### Automated AWS Threat Detection & EC2 Isolation
 
-Project 04 of the Cloud Security Engineering
+Project 04 of the Cloud Security Engineering. 
+
 **Muhammad Hassan Raza** | [Portfolio](https://hassan-raza-me.vercel.app) | [LinkedIn](https://linkedin.com/in/muhammad-hassan-raza-5a2749322)
 
 ---
